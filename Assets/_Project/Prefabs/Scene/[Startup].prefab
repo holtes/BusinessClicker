@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &756582330438084403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6371281773256052932}
+  - component: {fileID: 6849743151924373815}
+  - component: {fileID: 8055902786752160490}
+  m_Layer: 0
+  m_Name: '[Startup]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6371281773256052932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756582330438084403}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6849743151924373815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756582330438084403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f993fbcd6a12e47419f6c843c55a01bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _businessNamesDatabase: {fileID: 11400000, guid: 2468243b595bd6644933dfffb9eaa968, type: 2}
+  _businessesDatabase: {fileID: 11400000, guid: 74cb5d26a73031848815aef1755cc3c3, type: 2}
+  _sceneData: {fileID: 8055902786752160490}
+--- !u!114 &8055902786752160490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756582330438084403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a2cc9af23cf2b45abb07bcca403c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _businessPrefab: {fileID: 314506759701105283, guid: e7c78708a39b6fb42a6ce5b9c89b66ee, type: 3}
+  _businessListView: {fileID: 0}
+  _balanceView: {fileID: 0}
